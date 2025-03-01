@@ -1,0 +1,23 @@
+// show_logs (true);
+
+output_directory (lib);
+output (example);
+extension (js);
+source_path (example);
+include (main);
+include (math);
+include (string);
+
+make ();
+
+output (getstdFetch);
+extension (js);
+
+include (main);
+include (main);
+include (main);
+include (main);
+include (math);
+# include (string);
+
+make ();

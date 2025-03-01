@@ -1,0 +1,15 @@
+# This is the build file for mklib cross-compilation;
+
+main (`src/main.cc`);
+out  (`mklib`);
+bin  (`bin`);
+
+compiler (`g++`);
+compile_arguments (`-Isrc/include`);
+
+exec_args (`--version`);
+exec ();
+
+system (`clear`);
+
+make ();
