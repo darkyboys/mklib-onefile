@@ -2,6 +2,8 @@
 
 *mklib* is a lightweight and efficient library packaging tool that compiles multiple source files into a single output file based on a `build.mklib` configuration file. It is designed to improve modular library usage by eliminating the need for multiple imports or includes, making projects easier to manage.
 
+**This is the OneFile Version of mklib which may not contain the latest updates, Be sure to checkout the (full src versiion)[https://github.com/darkyboys/mklib] This README will only contain links related to the full version so don't think that they are bugs**
+
 ## Features
 
 - Supports **any programming language**, including C++, JavaScript, and Python.
